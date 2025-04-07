@@ -1,0 +1,292 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_games": "Games",
+                    "category_websites": "Websites"
+                },
+                "de": {
+                    "category_all": "Alle",
+                    "category_apps": "Apps",
+                    "category_games": "Spiele",
+                    "category_websites": "Webseiten"
+                },
+                "it": {
+                    "category_all": "Tutti",
+                    "category_apps": "App",
+                    "category_games": "Giochi",
+                    "category_websites": "Siti web"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/project-penpal.png",
+                    "category": "apps",
+                    "locales": {
+                        "en": {
+                            "title": "Virtual PenPal",
+                            "description": "<b>Virtual PenPal</b> is a React Native app that connects people from all over the world through digital penpal relationships. Share stories, cultures, and languages in a modern twist on a classic exchange!",
+                            "tags": ["reactnative", "penpals", "social"]
+                        },
+                        "it": {
+                            "title": "Virtual PenPal",
+                            "description": "<b>Virtual PenPal</b> è un'app sviluppata con React Native che mette in contatto persone da tutto il mondo attraverso scambi digitali. Condividi storie, culture e lingue in un modo moderno di essere penpal!",
+                            "tags": ["reactnative", "penpals", "sociale"]
+                        },
+                        "de": {
+                            "title": "Virtual PenPal",
+                            "description": "<b>Virtual PenPal</b> ist eine React Native App, die Menschen weltweit durch digitale Brieffreundschaften verbindet. Teile Geschichten, Kulturen und Sprachen auf moderne Art und Weise!",
+                            "tags": ["reactnative", "penpals", "sozial"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/project-meow-me.png",
+                    "category": "apps",
+                    "locales": {
+                        "en": {
+                            "title": "MeowMe",
+                            "description": "<b>MeowMe</b> is a fun little app that lets users emit all kinds of cat sounds. Whether you're entertaining your pet or playing a prank, MeowMe is pure feline fun!",
+                            "tags": ["cat", "fun", "app"]
+                        },
+                        "it": {
+                            "title": "MeowMe",
+                            "description": "<b>MeowMe</b> è una simpatica app che riproduce ogni tipo di miagolio. Che tu voglia intrattenere il tuo gatto o fare uno scherzo, MeowMe è puro divertimento felino!",
+                            "tags": ["gatto", "divertimento", "app"]
+                        },
+                        "de": {
+                            "title": "MeowMe",
+                            "description": "<b>MeowMe</b> ist eine spaßige App, mit der man verschiedene Katzengeräusche abspielen kann. Ob zur Unterhaltung deiner Katze oder für einen kleinen Streich – MeowMe sorgt für miautastische Momente!",
+                            "tags": ["katze", "spaß", "app"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/project-syrian.png",
+                    "category": "apps",
+                    "locales": {
+                        "en": {
+                            "title": "Syrian House",
+                            "description": "<b>Syrian House</b> is a custom app for the restaurant of the same name. It showcases the menu, allows for bookings, and shares the rich culture of Syrian cuisine.",
+                            "tags": ["restaurant", "app", "syrian"]
+                        },
+                        "it": {
+                            "title": "Syrian House",
+                            "description": "<b>Syrian House</b> è un'app su misura per il ristorante omonimo. Presenta il menù, permette prenotazioni e celebra la ricca cultura della cucina siriana.",
+                            "tags": ["ristorante", "app", "siriana"]
+                        },
+                        "de": {
+                            "title": "Syrian House",
+                            "description": "<b>Syrian House</b> ist eine maßgeschneiderte App für das gleichnamige Restaurant. Sie zeigt die Speisekarte, ermöglicht Reservierungen und bringt die kulinarische Kultur Syriens näher.",
+                            "tags": ["restaurant", "app", "syrisch"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "img": "images/pictures/project-snake.png",
+                    "category": "games",
+                    "locales": {
+                        "en": {
+                            "title": "Vue Snake",
+                            "description": "<b>Vue Snake</b> is a modern twist on the classic snake game, built entirely with Vue 3. It offers smooth animations, responsive controls, and a minimalist UI that runs flawlessly on both desktop and mobile. Whether you're aiming to beat your high score or just take a quick break, Vue Snake delivers a fun and nostalgic experience packed into a sleek, lightweight game.",
+                            "tags": ["vue3", "game", "snake"]
+                        },
+                        "it": {
+                            "title": "Vue Snake",
+                            "description": "<b>Vue Snake</b> è una rivisitazione moderna del classico gioco del serpente, sviluppata interamente con Vue 3. Offre animazioni fluide, controlli reattivi e un'interfaccia minimalista che funziona perfettamente sia su desktop che su mobile. Che tu voglia battere il tuo record o fare una pausa veloce, Vue Snake ti offre un'esperienza divertente e nostalgica in un gioco elegante e leggero.",
+                            "tags": ["vue3", "gioco", "snake"]
+                        },
+                        "de": {
+                            "title": "Vue Snake",
+                            "description": "<b>Vue Snake</b> ist eine moderne Version des klassischen Snake-Spiels, komplett mit Vue 3 entwickelt. Es bietet flüssige Animationen, reaktionsschnelle Steuerung und ein minimalistisches UI, das sowohl auf dem Desktop als auch mobil hervorragend läuft. Egal ob du deinen Highscore knacken oder einfach kurz abschalten möchtest – Vue Snake liefert ein nostalgisches Spielerlebnis in einem eleganten, schlanken Paket.",
+                            "tags": ["vue3", "spiel", "snake"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/project-2048.png",
+                    "category": "games",
+                    "locales": {
+                        "en": {
+                            "title": "2048",
+                            "description": "<b>2048</b> is a Vue-powered version of the classic tile-based puzzle game. Smooth animations and responsive gameplay make it a great way to exercise your brain!",
+                            "tags": ["vue", "game", "2048"]
+                        },
+                        "it": {
+                            "title": "2048",
+                            "description": "<b>2048</b> è una versione del classico gioco puzzle realizzata con Vue. Con animazioni fluide e gameplay reattivo, è perfetto per mettere alla prova la tua mente!",
+                            "tags": ["vue", "gioco", "2048"]
+                        },
+                        "de": {
+                            "title": "2048",
+                            "description": "<b>2048</b> ist eine mit Vue entwickelte Version des klassischen Zahlenpuzzles. Mit flüssigen Animationen und reaktivem Gameplay ist es ideal für eine kleine Denksportaufgabe!",
+                            "tags": ["vue", "spiel", "2048"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://www.apple.com/br/app-store/", "stringKey": "view_on_app_store"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://play.google.com/store", "stringKey": "view_on_google_play"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "img": "images/pictures/project-kawaii.png",
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Kawaii Store",
+                            "description": "<b>Kawaii Store</b> is an adorable online shop for Asian goodies, crafted using Vue and PHP. Its playful UI and charming vibe make browsing a fun and cozy experience. Perfect for fans of Asian snacks, stationery, and cute merch!",
+                            "tags": ["vue", "php", "ecommerce"]
+                        },
+                        "it": {
+                            "title": "Kawaii Store",
+                            "description": "<b>Kawaii Store</b> è un adorabile negozio online di prodotti asiatici, realizzato con Vue e PHP. L'interfaccia giocosa e l'atmosfera accattivante rendono la navigazione un'esperienza piacevole. Perfetto per chi ama snack asiatici, cancelleria e oggetti carini!",
+                            "tags": ["vue", "php", "ecommerce"]
+                        },
+                        "de": {
+                            "title": "Kawaii Store",
+                            "description": "<b>Kawaii Store</b> ist ein niedlicher Onlineshop für asiatische Produkte, entwickelt mit Vue und PHP. Die verspielte Benutzeroberfläche und das charmante Design machen das Stöbern zu einem echten Vergnügen. Ideal für Fans asiatischer Snacks, Schreibwaren und süßer Dinge!",
+                            "tags": ["vue", "php", "ecommerce"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://github.com/ryanbalieiro", "stringKey": "view_on_web"}
+                    ]
+                },
+                {
+                    "id": 7,
+                    "img": "images/pictures/project-text-editor.png",
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Vue Editor",
+                            "description": "<b>Vue Editor</b> is a sleek and powerful text editor built entirely with Vue. It supports syntax highlighting, themes, and intuitive UX features designed for productivity and focus.",
+                            "tags": ["vue", "editor", "productivity"]
+                        },
+                        "it": {
+                            "title": "Vue Editor",
+                            "description": "<b>Vue Editor</b> è un editor di testo potente ed elegante sviluppato interamente con Vue. Supporta evidenziazione della sintassi, temi e un'interfaccia intuitiva pensata per la produttività.",
+                            "tags": ["vue", "editor", "produttività"]
+                        },
+                        "de": {
+                            "title": "Vue Editor",
+                            "description": "<b>Vue Editor</b> ist ein leistungsstarker und eleganter Texteditor, komplett mit Vue entwickelt. Er bietet Syntaxhervorhebung, Themes und eine benutzerfreundliche Oberfläche für maximale Produktivität.",
+                            "tags": ["vue", "editor", "produktivität"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://github.com/ryanbalieiro", "stringKey": "view_on_web"}
+
+                    ]
+                },
+                {
+                    "id": 8,
+                    "img": "images/pictures/project-ishare.png",
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "iShare",
+                            "description": "<b>iShare</b> is a stylish tech blog built with Vue and Laravel. It allows users to post, comment, and share their favorite tech discoveries in a simple and elegant platform.",
+                            "tags": ["vue", "laravel", "blog"]
+                        },
+                        "it": {
+                            "title": "iShare",
+                            "description": "<b>iShare</b> è un blog tech elegante sviluppato con Vue e Laravel. Gli utenti possono pubblicare, commentare e condividere le loro scoperte tecnologiche preferite in una piattaforma semplice e raffinata.",
+                            "tags": ["vue", "laravel", "blog"]
+                        },
+                        "de": {
+                            "title": "iShare",
+                            "description": "<b>iShare</b> ist ein stilvoller Tech-Blog, erstellt mit Vue und Laravel. Nutzer können Beiträge verfassen, kommentieren und ihre Lieblingsentdeckungen teilen – alles auf einer schlanken Plattform.",
+                            "tags": ["vue", "laravel", "blog"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://github.com/ryanbalieiro", "stringKey": "view_on_web"}
+
+                    ]
+                },
+                {
+                    "id": 9,
+                    "img": "images/pictures/project-finances.png",
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "Easy Finances",
+                            "description": "<b>Easy Finances</b> is a community web app for the YouTube channel of the same name. Built with React and a Node server, it includes a blog and forum where users discuss personal finance topics.",
+                            "tags": ["react", "node", "finance"]
+                        },
+                        "it": {
+                            "title": "Easy Finances",
+                            "description": "<b>Easy Finances</b> è una web app comunitaria per il canale YouTube omonimo. Realizzata con React e Node, include un blog e un forum per discutere di finanza personale.",
+                            "tags": ["react", "node", "finanza"]
+                        },
+                        "de": {
+                            "title": "Easy Finances",
+                            "description": "<b>Easy Finances</b> ist eine Community-Webanwendung für den gleichnamigen YouTube-Kanal. Entwickelt mit React und einem Node-Server bietet sie ein Blog und ein Forum für Diskussionen rund um persönliche Finanzen.",
+                            "tags": ["react", "node", "finanzen"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://github.com/ryanbalieiro", "stringKey": "view_on_web"}
+
+                    ]
+                },
+                {
+                    "id": 10,
+                    "img": "images/pictures/project-code-nest.png",
+                    "category": "websites",
+                    "locales": {
+                        "en": {
+                            "title": "CodeNest",
+                            "description": "<b>CodeNest</b> is a minimalist portfolio generator for developers. With sleek templates, dark mode, and instant deployment, it's the fastest way to get your dev portfolio online — no code required.",
+                            "tags": ["vue", "portfolio", "tool"]
+                        },
+                        "it": {
+                            "title": "CodeNest",
+                            "description": "<b>CodeNest</b> è un generatore minimalista di portfolio per sviluppatori. Con template eleganti, modalità scura e pubblicazione istantanea, è il modo più veloce per mettere online il tuo portfolio — senza scrivere codice.",
+                            "tags": ["vue", "portfolio", "strumento"]
+                        },
+                        "de": {
+                            "title": "CodeNest",
+                            "description": "<b>CodeNest</b> ist ein minimalistischer Portfolio-Generator für Entwickler. Mit stilvollen Vorlagen, Dark Mode und sofortiger Veröffentlichung ist es der schnellste Weg, dein Dev-Portfolio online zu bringen — ganz ohne Code.",
+                            "tags": ["vue", "portfolio", "tool"]
+                        }
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-globe", "href": "https://github.com/ryanbalieiro", "stringKey": "view_on_web"}
+                    ]
+                }
+            ]
+        }
+    ]
+}

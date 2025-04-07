@@ -1,0 +1,139 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "dateStart": {"year": 2016, "month": 3},
+                    "dateEnd": {"year": 2020, "month": 3},
+                    "img": "images/pictures/place-usf.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Bachelor’s Degree in Software Engineering",
+                            "description": "Studied software architecture, object-oriented programming, and front-end development. Participated in multiple group projects and built a solid foundation in full-stack web development with a focus on user-centric design.",
+                            "list": null,
+                            "province": "",
+                            "country": "US",
+                            "institution": "University of South Florida"
+                        },
+                        "it": {
+                            "title": "Laurea in Ingegneria del Software",
+                            "description": "Ho studiato architettura del software, programmazione orientata agli oggetti e sviluppo front-end. Ho partecipato a diversi progetti di gruppo e costruito una solida base nello sviluppo web full-stack, con un’attenzione particolare al design centrato sull’utente.",
+                            "list": null,
+                            "province": "",
+                            "country": "Stati Uniti",
+                            "institution": "University of South Florida"
+                        },
+                        "de": {
+                            "title": "Bachelor in Softwaretechnik",
+                            "description": "Ich habe Softwarearchitektur, objektorientierte Programmierung und Frontend-Entwicklung studiert. In mehreren Gruppenprojekten mitgewirkt und eine solide Grundlage in der Full-Stack-Webentwicklung mit Fokus auf nutzerzentriertem Design aufgebaut.",
+                            "list": null,
+                            "province": "",
+                            "country": "USA",
+                            "institution": "University of South Florida"
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "dateStart": {"year": 2020, "month": 3},
+                    "dateEnd": {"year": 2020, "month": 8},
+                    "img": "images/pictures/place-udacity.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Front-End Web Development Nanodegree",
+                            "description": "Completed an intensive program focused on HTML, CSS, JavaScript, and modern web development practices. Built responsive web projects and gained hands-on experience with version control, accessibility, and performance optimization.",
+                            "list": null,
+                            "province": "Remote",
+                            "country": "",
+                            "institution": "Udacity"
+                        },
+                        "it": {
+                            "title": "Nanodegree in Sviluppo Web Front-End",
+                            "description": "Ho completato un programma intensivo incentrato su HTML, CSS, JavaScript e le pratiche moderne di sviluppo web. Ho realizzato progetti web responsive e acquisito esperienza pratica con il controllo di versione, l’accessibilità e l’ottimizzazione delle prestazioni.",
+                            "list": null,
+                            "province": "Online",
+                            "country": "",
+                            "institution": "Udacity"
+                        },
+                        "de": {
+                            "title": "Nanodegree in Front-End-Webentwicklung",
+                            "description": "Ich habe ein intensives Programm abgeschlossen, das sich auf HTML, CSS, JavaScript und moderne Webentwicklung konzentrierte. Ich habe responsive Webprojekte umgesetzt und praktische Erfahrung mit Versionskontrolle, Barrierefreiheit und Performance-Optimierung gesammelt.",
+                            "list": null,
+                            "province": "Online",
+                            "country": "",
+                            "institution": "Udacity"
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "dateStart": {"year": 2021, "month": 6},
+                    "dateEnd": {"year": 2024, "month": 4},
+                    "img": "images/pictures/place-tu-berlin.png",
+                    "fallbackFaIcon": null,
+                    "fallbackFaIconColor": null,
+                    "locales": {
+                        "en": {
+                            "title": "Master’s Degree in Computer Science",
+                            "description": "Focused on advanced topics in software engineering, human-computer interaction, and modern web technologies. Developed a strong academic foundation while actively contributing to research in the front-end development space.",
+                            "list": {
+                                "title": "Research topics:",
+                                "items": [
+                                    "Performance optimization in large-scale Vue.js applications.",
+                                    "State management patterns using Vuex and Composition API.",
+                                    "Progressive Web Apps (PWAs) with Vue and Service Workers."
+                                ]
+                            },
+                            "province": "",
+                            "country": "Germany",
+                            "institution": "Technische Universität Berlin"
+                        },
+                        "it": {
+                            "title": "Laurea Magistrale in Informatica",
+                            "description": "Mi sono concentrata su temi avanzati di ingegneria del software, interazione uomo-computer e tecnologie web moderne. Ho costruito una solida base accademica contribuendo attivamente alla ricerca nell’ambito dello sviluppo front-end.",
+                            "list": {
+                                "title": "Temi di ricerca:",
+                                "items": [
+                                    "Ottimizzazione delle prestazioni in applicazioni Vue.js su larga scala.",
+                                    "Pattern di gestione dello stato con Vuex e Composition API.",
+                                    "Progressive Web App (PWA) con Vue e Service Workers."
+                                ]
+                            },
+                            "province": "",
+                            "country": "Germania",
+                            "institution": "Technische Universität Berlin"
+                        },
+                        "de": {
+                            "title": "Master in Informatik",
+                            "description": "Fokus auf fortgeschrittene Themen der Softwaretechnik, Mensch-Computer-Interaktion und modernen Webtechnologien. Ich habe ein starkes akademisches Fundament aufgebaut und aktiv zur Forschung im Bereich Frontend-Entwicklung beigetragen.",
+                            "list": {
+                                "title": "Forschungsthemen:",
+                                "items": [
+                                    "Performance-Optimierung in groß angelegten Vue.js-Anwendungen.",
+                                    "Zustandsmanagement-Muster mit Vuex und Composition API.",
+                                    "Progressive Web Apps (PWAs) mit Vue und Service Workern."
+                                ]
+                            },
+                            "province": "",
+                            "country": "Deutschland",
+                            "institution": "Technische Universität Berlin"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

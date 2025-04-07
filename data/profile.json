@@ -1,0 +1,75 @@
+{
+    "name": "Alana Richard",
+    "profilePictureUrl": "images/pictures/pfp.png",
+    "locales": {
+        "en": {
+            "credits": "Designed by <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Vue Developer"
+        },
+        "it": {
+            "credits": "Progettato da <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Sviluppatore Vue"
+        },
+        "de": {
+            "credits": "Entwickelt von <strong><a href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
+            "role": "Vue-Entwickler"
+        }
+    },
+    "contactOptions": [
+        {
+            "id": "address",
+            "value": "123 Some Street, Chicago, IL 01234",
+            "valueShort": "Chicago – IL",
+            "faIcon": "fa-regular fa-map",
+            "href": null
+        },
+
+        {
+            "id": "email",
+            "value": "alanarichard@gmail.com",
+            "valueShort": "alanarichard@gmail.com",
+            "faIcon": "fa-regular fa-envelope",
+            "href": "mailto:alanarichard@gmail.com"
+        },
+
+        {
+            "id": "github",
+            "value": "@rbtutorials",
+            "valueShort": "@rbtutorials",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/rbtutorials"
+        },
+
+        {
+            "id": "instagram",
+            "value": "@alanarichard",
+            "valueShort": "@alanarichardl",
+            "faIcon": "fa-brands fa-instagram",
+            "href": "https://instagram.com/alanarichard"
+        },
+
+        {
+            "id": "linkedin",
+            "value": "Alana Richard",
+            "valueShort": "Alana Richard",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/alana-richard"
+        },
+
+        {
+            "id": "phone",
+            "value": "+1 (123) 456-7890",
+            "valueShort": "(123) 456-7890",
+            "faIcon": "fa-brands fa-whatsapp",
+            "href": "tel:1234567890"
+        },
+
+        {
+            "id": "x",
+            "value": "@alanarichard",
+            "valueShort": "@alanarichard",
+            "faIcon": "fa-brands fa-x-twitter",
+            "href": "https://x.com/alanarichard"
+        }
+    ]
+}

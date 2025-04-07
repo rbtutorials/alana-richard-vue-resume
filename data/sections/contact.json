@@ -1,0 +1,58 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleContactForm",
+            "locales": {
+                "en": {
+                    "contact_thank_you": "*Thanks* for the contact!",
+                    "contact_thank_you_description": "Your message has been received, and I'll be reaching out to you soon. I appreciate your time and look forward to connecting with you!",
+                    "contact_thank_you_reply": "The reply will be sent to your email address *{email}*."
+                },
+                "de": {
+                    "contact_thank_you": "*Danke* für deine Nachricht!",
+                    "contact_thank_you_description": "Deine Nachricht ist angekommen, und ich werde mich bald bei dir melden. Ich schätze deine Zeit und freue mich darauf, mit dir in Kontakt zu treten!",
+                    "contact_thank_you_reply": "Die Antwort wird an deine E-Mail-Adresse *{email}* gesendet."
+                },
+                "it": {
+                    "contact_thank_you": "*Grazie* per il contatto!",
+                    "contact_thank_you_description": "Ho ricevuto il tuo messaggio e ti contatterò al più presto. Apprezzo il tuo tempo e non vedo l’ora di mettermi in contatto con te!",
+                    "contact_thank_you_reply": "La risposta sarà inviata al tuo indirizzo email *{email}*."
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_js_public_key": "tzObcsmOwHvPy6Rhp",
+                "contact_js_service_id": "service_4h8g7vb",
+                "contact_js_template_id": "template_kplo17d"
+            },
+            "items": null
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleContactOptions",
+            "locales": {
+                "en": {
+                    "title": "Or...",
+                    "description": "If you prefer, you can reach out to me through the following options:"
+                },
+                "de": {
+                    "title": "Oder...",
+                    "description": "Wenn du möchtest, kannst du mich auch über die folgenden Optionen erreichen:"
+                },
+                "it": {
+                    "title": "Oppure...",
+                    "description": "Se preferisci, puoi contattarmi tramite le seguenti opzioni:"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "contact_ids": ["address", "phone", "email", "linkedin", "x", "github"]
+            },
+            "items": null
+        }
+    ]
+}

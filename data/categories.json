@@ -1,0 +1,43 @@
+{
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-regular fa-user",
+            "locales": {
+                "en": { "nav_label": "Home" },
+                "it": { "nav_label": "Home" },
+                "de": { "nav_label": "Startseite" }
+            }
+        },
+
+        {
+            "id": "background",
+            "faIcon": "fa-regular fa-clock",
+            "locales": {
+                "en": { "nav_label": "Background" },
+                "it": { "nav_label": "Percorso" },
+                "de": { "nav_label": "Werdegang" }
+            }
+        },
+
+        {
+            "id": "showcase",
+            "faIcon": "fa-regular fa-folder-open",
+            "locales": {
+                "en": { "nav_label": "Showcase" },
+                "it": { "nav_label": "Portfolio" },
+                "de": { "nav_label": "Projekte" }
+            }
+        },
+
+        {
+            "id": "more",
+            "faIcon": "fa-regular fa-object-ungroup",
+            "locales": {
+                "en": { "nav_label": "More" },
+                "de": { "nav_label": "Mehr" },
+                "it": { "nav_label": "Altro" }
+            }
+        }
+    ]
+}

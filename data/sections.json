@@ -1,0 +1,227 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/sections/about.json",
+            "faIcon": "fa-solid fa-address-card",
+            "type": "centered",
+            "locales": {
+                "en": {
+                    "title": "Hey! :) I am *Alana*!",
+                    "title_short": "Welcome! :)",
+                    "description": null,
+                    "nav_label": "About"
+                },
+                "it": {
+                    "title": "Ehi! :) Sono *Alana*!",
+                    "title_short": "Benvenuto! :)",
+                    "description": null,
+                    "nav_label": "Chi sono"
+                },
+                "de": {
+                    "title": "Hey! :) Ich bin *Alana*!",
+                    "title_short": "Willkommen! :)",
+                    "description": null,
+                    "nav_label": "Über mich"
+                }
+            }
+        },
+
+        {
+            "id": "education",
+            "categoryId": "background",
+            "jsonPath": "/sections/education.json",
+            "faIcon": "fa-solid fa-graduation-cap",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Educational* Background",
+                    "title_short": null,
+                    "description": "A glimpse into my academic trajectory and accomplishments.",
+                    "nav_label": "Education"
+                },
+                "it": {
+                    "title": "Percorso *Educativo*",
+                    "title_short": null,
+                    "description": "Uno sguardo alla mia carriera accademica e ai traguardi raggiunti.",
+                    "nav_label": "Formazione"
+                },
+                "de": {
+                    "title": "*Bildungs*weg",
+                    "title_short": null,
+                    "description": "Ein Einblick in meinen akademischen Werdegang und meine Erfolge.",
+                    "nav_label": "Ausbildung"
+                }
+            }
+        },
+
+        {
+            "id": "skills",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/skills.json",
+            "faIcon": "fa-solid fa-tools",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Skill* Set",
+                    "title_short": null,
+                    "description": "Exploring the diverse range of skills I've acquired and developed:",
+                    "nav_label": "Skills"
+                },
+                "it": {
+                    "title": "Set di *Competenze*",
+                    "title_short": null,
+                    "description": "Un’esplorazione delle diverse competenze che ho acquisito e sviluppato:",
+                    "nav_label": "Competenze"
+                },
+                "de": {
+                    "title": "*Fähigkeiten* Überblick",
+                    "title_short": null,
+                    "description": "Ein Blick auf die vielseitigen Fähigkeiten, die ich mir angeeignet und weiterentwickelt habe:",
+                    "nav_label": "Fähigkeiten"
+                }
+            }
+        },
+
+        {
+            "id": "experience",
+            "categoryId": "background",
+            "jsonPath": "/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Professional* Experience",
+                    "title_short": null,
+                    "description": "A look into my work experience and career journey.",
+                    "nav_label": "Experience"
+                },
+                "de": {
+                    "title": "*Berufliche* Erfahrung",
+                    "title_short": null,
+                    "description": "Ein Einblick in meine Berufserfahrung und Karriereentwicklung.",
+                    "nav_label": "Erfahrung"
+                },
+                "it": {
+                    "title": "Esperienza *Professionale*",
+                    "title_short": null,
+                    "description": "Uno sguardo alla mia esperienza lavorativa e al mio percorso professionale.",
+                    "nav_label": "Esperienza"
+                }
+            }
+        },
+
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Portfolio*",
+                    "title_short": null,
+                    "description": "Explore a selection of my recent projects and creative works.",
+                    "nav_label": "Portfolio"
+                },
+                "de": {
+                    "title": "Mein *Portfolio*",
+                    "title_short": null,
+                    "description": "Entdecke eine Auswahl meiner aktuellen Projekte und kreativen Arbeiten.",
+                    "nav_label": "Portfolio"
+                },
+                "it": {
+                    "title": "Il mio *Portfolio*",
+                    "title_short": null,
+                    "description": "Esplora una selezione dei miei progetti recenti e lavori creativi.",
+                    "nav_label": "Portfolio"
+                }
+            }
+        },
+
+        {
+            "id": "publications",
+            "categoryId": "showcase",
+            "jsonPath": "/sections/publications.json",
+            "faIcon": "fa-solid fa-scroll",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "My *Publications*",
+                    "title_short": null,
+                    "description": "Browse through articles, research, and other pieces I've written or contributed to.",
+                    "nav_label": "Publications"
+                },
+                "de": {
+                    "title": "Meine *Publikationen*",
+                    "title_short": null,
+                    "description": "Stöbere durch Artikel, Recherchen und andere Beiträge, an denen ich mitgewirkt habe.",
+                    "nav_label": "Publikationen"
+                },
+                "it": {
+                    "title": "Le mie *Pubblicazioni*",
+                    "title_short": null,
+                    "description": "Sfoglia articoli, ricerche e altri scritti a cui ho contribuito.",
+                    "nav_label": "Pubblicazioni"
+                }
+            }
+        },
+
+        {
+            "id": "updates",
+            "categoryId": "more",
+            "jsonPath": "/sections/career.json",
+            "faIcon": "fa-solid fa-medal",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "Career *Updates*",
+                    "title_short": null,
+                    "description": "Here's a list of certifications I've got recently:",
+                    "nav_label": "Updates"
+                },
+                "de": {
+                    "title": "Karriere-*Updates*",
+                    "title_short": null,
+                    "description": "Hier ist eine Liste meiner Zertifikate, die ich kürzlich erhalten habe:",
+                    "nav_label": "Neuigkeiten"
+                },
+                "it": {
+                    "title": "*Aggiornamenti* Carriera",
+                    "title_short": null,
+                    "description": "Ecco un elenco delle certificazioni che ho ottenuto di recente:",
+                    "nav_label": "Aggiornamenti"
+                }
+            }
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square",
+            "type": "column",
+            "locales": {
+                "en": {
+                    "title": "*Contact* Me",
+                    "title_short": null,
+                    "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+                    "nav_label": "Contact"
+                },
+                "de": {
+                    "title": "*Kontaktiere* mich",
+                    "title_short": null,
+                    "description": "Zögere nicht, mich zu kontaktieren, wann immer du das Bedürfnis hast!",
+                    "nav_label": "Kontakt"
+                },
+                "it": {
+                    "title": "*Contattami*",
+                    "title_short": null,
+                    "description": "Non esitare a metterti in contatto con me ogni volta che ne senti il bisogno!",
+                    "nav_label": "Contatto"
+                }
+            }
+        }
+    ]
+}
